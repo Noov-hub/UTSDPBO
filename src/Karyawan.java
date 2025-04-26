@@ -19,7 +19,6 @@ public class Karyawan extends Orang implements Worker {
     public void setPerusahaanTempatBekerja(String perusahaan) { this.perusahaanTempatBekerja = perusahaan; }
     public void setGajiPerBulan(double gaji) { this.gajiPerBulan = gaji; }
 
-    
     @Override
     public void displayInfo() {
         System.out.println("Karyawan: " + nama + ", Bekerja di: " + perusahaanTempatBekerja + ", Gaji: " + gajiPerBulan);
